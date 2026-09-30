@@ -6,7 +6,7 @@ Standalone subscription and quota panel for DeepSeek Harness.
 
 - Sidebar footer entry with aligned floating panel
 - Per-currency balances and quota windows
-- Command Code live balance and quota windows
+- Provider-agnostic live balance and quota windows
 - Manual platform mode for services without a balance API
 - Renewal URL allowlist and pending-renewal state
 - Settings view for refresh, alerts, platforms, archive/delete policy
