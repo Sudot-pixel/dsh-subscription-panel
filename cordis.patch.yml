@@ -1,0 +1,9 @@
+# dsh-subscription-panel bundle layer.
+#
+# 这是本插件**唯一**的行声明处（insert）。dsh 启动时把各 bundle 的 patch 合并进生效配置。
+# 注意：
+#   1) name 必须是 node_modules 里的真实包名；以 @ 开头必须加引号。
+#   2) 不要同时在 profile 层再写一份 insert，否则同一 id 会被插入两次。
+- insert:
+    - id: subscription-panel
+      name: dsh-subscription-panel
