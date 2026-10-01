@@ -1,6 +1,9 @@
 *.tgz
+_pkgs/
 _bak-*
 node_modules/
 *.log
+*.bak
+*.tmp-*
 .env
 .env.*
