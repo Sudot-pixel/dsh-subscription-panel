@@ -25,6 +25,7 @@ Open the panel, choose **Settings**, then **Add platform**. The form supports:
 - **Public platform templates** can prefill verified identity metadata, currency, `logoKey`, and explicitly public endpoint fields. A template never fills balance, budget, renewal URL, credential values, or login state; review and save it explicitly.
 - The bundled Discovery Catalog detects only verified standard credential references. It never scans unknown credentials or guesses a provider from a key prefix. Detected platforms appear as temporary cards with sync status; use **Pin to panel** to persist one locally.
 - Discovery failures, expired credentials, zero balance, and stale data keep the platform card visible with a distinct status. Manual values and renewal settings remain local and take precedence when a discovered platform is merged.
+- Settings can archive a saved platform without losing its local configuration. Archived platforms can be restored later; temporary discovery cards disappear when their credential is removed and are not archived.
 
 The local registry is stored under `$DSH_HOME/.dsh-subs.json` (or the DSH home fallback on older setups). It is local user data and is intentionally not included in the public package.
 

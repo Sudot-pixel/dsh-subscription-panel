@@ -37,6 +37,8 @@
 | 宿主路由 | `GET /dsh-subs/list.json` | 返回本地与临时发现平台的实时合并 DTO |
 | 宿主路由 | `GET /dsh-subs/catalog.json` | 返回内置、版本化、只读 Discovery Catalog |
 | 宿主路由 | `POST /dsh-subs/platforms` | 同源 JSON 请求；host 校验、去重、原子写入平台注册表 |
+| 宿主路由 | `POST /dsh-subs/platforms/archive` | 同源 JSON 请求；归档本地平台，原子写入本地归档文件 |
+| 宿主路由 | `POST /dsh-subs/platforms/restore` | 同源 JSON 请求；从本地归档恢复平台 |
 | 宿主路由 | `POST /dsh-subs/discovered/pin` | 同源 JSON 请求；仅允许 Catalog 平台 ID，显式固定临时发现平台 |
 | 宿主路由 | `GET /dsh-subs/heartbeat` | 诊断用心跳；**默认必须关闭或仅在显式诊断模式下启用** |
 | 本地配置 | 平台注册表 | 路径由环境变量或 `$DSH_HOME` 解析，不写死绝对路径 |
