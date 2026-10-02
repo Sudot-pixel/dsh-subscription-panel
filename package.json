@@ -1,6 +1,6 @@
 {
   "name": "dsh-subscription-panel",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "type": "module",
   "description": "DSH 订阅与额度面板：左栏底部入口 + 自绘玻璃浮层，展示各 AI 平台的余额/到期/用量/窗口进度，并提供续费深链、续费清单与归档删除。",
   "license": "MIT",
